@@ -1,4 +1,4 @@
-package task1826;
+package InputStream.OutputStream.task1826;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
