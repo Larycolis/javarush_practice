@@ -1,3 +1,5 @@
+package IOStream.task1824;
+
 import java.io.*;
 
 /*
