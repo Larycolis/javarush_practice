@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55899d81-14cd-4c8f-a86c-8cb908e1e423" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/javaCore/src/IOStream/task1825/Description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaCore/src/IOStream/task1825/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "C:/Users/Евгения/IdeaProjects/javarush_practice/javaCore/src/IOStream/task1827",
+    "last_opened_file_path": "C:/Users/Евгения/IdeaProjects/javarush_practice/javaCore/src/IOStream/task1825",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -50,11 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1825" />
+      <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1820" />
       <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1827" />
       <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1821" />
       <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1822" />
-      <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1817" />
-      <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\IOStream\task1818" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\Multithreading\task1710" />
