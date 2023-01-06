@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55899d81-14cd-4c8f-a86c-8cb908e1e423" name="Changes" comment="" />
+    <list default="true" id="55899d81-14cd-4c8f-a86c-8cb908e1e423" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaCore/src/IOStream/task1825/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaCore/src/IOStream/task1825/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "C:/Users/Евгения/IdeaProjects/javarush_practice/javaCore/src/IOStream/task1825",
+    "last_opened_file_path": "C:/Users/Евгения/IdeaProjects/javarush_practice",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -58,7 +61,20 @@
       <recent name="C:\Users\Евгения\IdeaProjects\javarush_practice\javaCore\src\Multithreading\task1710" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IOStream.task1827.Solution">
+  <component name="RunManager" selected="Application.IOStream.task1825.Solution">
+    <configuration name="IOStream.task1825.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOStream.task1825.Solution" />
+      <module name="javaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOStream.task1825.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOStream.task1827.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IOStream.task1827.Solution" />
       <module name="javaCore" />
@@ -87,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOStream.task1825.Solution" />
         <item itemvalue="Application.IOStream.task1827.Solution" />
         <item itemvalue="Application.Solution" />
       </list>

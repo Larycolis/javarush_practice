@@ -6,25 +6,19 @@ import java.util.*;
 /*
 Собираем файл
 Файлы для проверки работы кода:
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part1
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part3
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part11
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part4
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part6
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part5
-C:\Users\Евгения\Desktop\task1825\Lion.txt.part2
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part1
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part3
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part11
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part4
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part6
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part5
+C:\Users\Евгения\Desktop\task1825\Lion.part1.txt.part2
 end
 */
 
 public class Solution {
     public static void main(String[] args) {
-        Set<String> fileNames = new TreeSet<>((o1, o2) -> {
-            String[] parts1 = o1.split(".part");
-            String[] parts2 = o2.split(".part");
-            int num1 = Integer.parseInt(parts1[parts1.length - 1]);
-            int num2 = Integer.parseInt(parts2[parts2.length - 1]);
-            return num1 - num2;
-        });
+        Set<String> fileNames = new TreeSet<>(Comparator.comparingInt(Solution::getPartNumber));
         String[] finalFileNameSplit = new String[1];
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             String fileName;
@@ -44,7 +38,7 @@ public class Solution {
             System.out.println(name);
         }
 
-        try (FileOutputStream fos = new FileOutputStream(finalFileNameSplit[0], true)) {
+        try (FileOutputStream fos = new FileOutputStream(finalFileNameSplit[0] + ".txt", true)) {
             for (String name : fileNames) {
                 try (FileInputStream fis = new FileInputStream(name)) {
                     byte[] buffer = new byte[fis.available()];
@@ -55,5 +49,9 @@ public class Solution {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private static int getPartNumber(String filename) {
+        return Integer.parseInt(filename.replaceFirst("^.+part(?=\\d+$)", ""));
     }
 }
