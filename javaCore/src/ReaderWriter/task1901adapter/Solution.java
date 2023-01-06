@@ -1,4 +1,4 @@
-package ReaderWriter.task1901;
+package ReaderWriter.task1901adapter;
 
 public class Solution {
     public static void main(String[] args) {
